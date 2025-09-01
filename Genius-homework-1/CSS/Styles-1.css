@@ -2,6 +2,7 @@
   --color-major-light: #2b7fff;
   --color-major-dark: #011c44;
   --color-blank: #ffffff;
+  --back-ground-color-1: #011f4a;
 }
 
 body {
@@ -98,7 +99,7 @@ ul {
 .order {
   color: var(--color-blank);
   text-align: center;
-  background-color: #011f4a;
+  background-color: var(--back-ground-color-1);
   width: 423px;
   height: 481px;
   border-radius: 32px;
@@ -124,7 +125,7 @@ ul {
 
 .footer {
   color: var(--color-blank);
-  background-color: #011c44;
+  background-color: var(--color-major-dark);
   border-color: transparent;
   width: 1440px;
   height: 278px;

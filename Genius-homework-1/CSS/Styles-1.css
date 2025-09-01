@@ -1,0 +1,133 @@
+:root {
+  --color-major-light: #2b7fff;
+  --color-major-dark: #011c44;
+  --color-blank: #ffffff;
+}
+
+body {
+  color: var(--color-major-dark);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hero-title {
+  color: var(--color-major-light);
+  text-transform: capitalize;
+  font-family: 'Play', sans-serif;
+  font-size: 140px;
+  width: 529px;
+  height: 265px;
+}
+
+.second-title-l {
+  font-family: 'Play', sans-serif;
+  text-align: left;
+  font-size: 64px;
+  font-weight: 700;
+}
+.second-title-l span {
+  color: var(--color-major-light);
+}
+
+.second-title {
+  font-family: 'Play', sans-serif;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.second-title span {
+  color: var(--color-major-light);
+}
+
+.first-point {
+  color: var(--color-major-light);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.bold-form {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.little-bz {
+  font-family: 'Play', sans-serif;
+  color: var(--color-major-light);
+  font-size: 24px;
+  font-weight: 700;
+  width: 74px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.button-up {
+  color: var(--color-blank);
+  background-color: #2b7fff;
+  width: 219px;
+  height: 53px;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.photo-comment {
+  color: var(--color-blank);
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.map {
+  border: 3px solid black;
+  border-radius: 32px;
+}
+
+.button-down {
+  color: var(--color-blank);
+  background-color: #2b7fff;
+  width: 281px;
+  height: 53px;
+  border-radius: 32px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.order {
+  color: var(--color-blank);
+  text-align: center;
+  background-color: #011f4a;
+  width: 423px;
+  height: 481px;
+  border-radius: 32px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.order span {
+  color: var(--color-major-light);
+}
+
+.points {
+  color: var(--color-blank);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.lower {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer {
+  color: var(--color-blank);
+  background-color: #011c44;
+  border-color: transparent;
+  width: 1440px;
+  height: 278px;
+  font-size: 18px;
+  font-weight: 400;
+}
